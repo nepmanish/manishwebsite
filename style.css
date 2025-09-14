@@ -23,12 +23,12 @@ html{
 }
 
 body{
-    background: #0B141E;
+    background: #160820;
     color: #fff;
 }
 
 .header{
-    background: rgba(0, 0, 0, 0.9);
+    background: #020105;
     position: fixed;
     top: 0;
     left: 0;
@@ -44,7 +44,7 @@ body{
 .logo{
     font-size: 2.2rem;
     font-weight: 600;
-    color: aqua;
+    color: #560bad;
 }
 
 .menu-bar a{
@@ -54,7 +54,7 @@ body{
 
 }
 .menu-bar a:hover{
-    color: aqua;
+    color: #560bad;
 }
 #menu-btn{
     font-size: 3rem;
@@ -76,7 +76,7 @@ section{
     font-size: 2.5rem;
 }
 span{
-    color: aqua;
+    color: #560bad;
 
 }
 .home-bio h1{
@@ -86,6 +86,8 @@ span{
 .home-bio p{
     padding: 1rem 0;
     font-size: 2rem;
+    margin: 0 auto;   /* equal left & right margin */
+  text-align: justify;
 
 }
 .profile-pic img{
@@ -119,13 +121,13 @@ span{
     transition: 0.4s ease;
 }
 .socail-media a:hover{
-    color: aqua;
-    box-shadow: 0 0 1rem aqua;
+    color: #560bad;
+    box-shadow: 0 0 1rem #560bad;
 }
 
 .btn{
     display: inline-block;
-    background: aqua;
+    background: #560bad;
     margin: 2rem 0;
     padding: 1rem 2.5rem;
     border-radius: 1.3rem;
@@ -138,9 +140,9 @@ span{
 
 }
  .btn:hover{
-    color:aqua;
+    color:#560bad;
     background: #000;
-    box-shadow: 0 0 1rem aqua;
+    box-shadow: 0 0 1rem #560bad;
  }
 .about{
     display: flex;
@@ -171,6 +173,8 @@ span{
 
 .about-text p{
     font-size: 2rem;
+  margin: 0 auto;   
+  text-align: justify; 
 }
 
 .skills{
@@ -208,7 +212,7 @@ span{
 }
 
 .skills-card .bx:hover{
-    color: aqua;
+    color: #560bad;
 }
 
 .skills-card h3{
@@ -281,9 +285,9 @@ span{
 }
 .card-overlay .bx:hover{
     transform: scale(1.2);
-    color: aqua;
+    color: #560bad;
     background: #000;
-    box-shadow: 0 0 2rem aqua;
+    box-shadow: 0 0 2rem #560bad;
 
 }
 .contact{

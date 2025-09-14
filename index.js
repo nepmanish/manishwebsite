@@ -24,7 +24,7 @@ ScrollReveal().reveal('.profile-pic, .about-items, .skills-items, .projects-item
 
 
 const animText = new Typed ('.animated-text',{
-    strings: ['Web Designer','Freelancer','Gamer'],
+    strings: ['Web Designer','Web Developer',],
     backSpeed: 100,
     typeSpeed: 100,
     backDelay: 600,
